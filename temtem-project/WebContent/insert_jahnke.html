@@ -1,0 +1,60 @@
+<html>
+<head>
+<style>
+header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;	 
+}
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+</style>
+</head>
+
+<body>
+<header>
+<h1> TemTem </h1>
+</header>
+
+<nav>
+<a href="/temtem-project/search_jahnke.html">Search For TemTem</a> <br>
+</nav>
+
+<section>
+	<h1>Add TemTem to Database</h1>
+	
+	<form action="SimpleFormInsert" method="POST">
+	
+		TemTem Name: <input type="text" name="name"> <br />
+		Type: <input type="text" name="type"> <br />
+		Found at: <input type="text" name="found"> <br />
+		
+		<input type="submit" value="Submit" />
+	</form>
+
+</section>
+
+<footer>
+Copyright
+</footer>
+</body>
+</html>
